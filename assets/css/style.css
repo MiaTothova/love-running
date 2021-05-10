@@ -95,7 +95,7 @@ animation-fill-mode: forwards;
 
 #cover-text {
     font-size: 130%;
-    font-family: Oswalt, sans-serif;
+    font-family: Oswald, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
 
@@ -119,28 +119,28 @@ animation-fill-mode: forwards;
     height: 600px;
 }
 
-hr {
-    border-top: 1px solid #3a3a3a;
-    width: 100%;
-    margin: 5px 0;
-}
 
 #left-about {
-    padding: 30px;
+    padding-top: 30px;
     width: 33%;
     float: left;
 }
 
 #right-about {
-    padding: 30px;
+    padding-top: 30px;
     width: 33%;
     float: right;
 }
 
 #center-about {
-    padding: 30px;
+    width:  33%;
     margin: 0 auto;
-    background-color: green;
+}
+
+hr {
+    border-top: 1px solid #3a3a3a;
+    width: 100%;
+    margin: 5px 0;
 }
 
 .left-about-heading {
@@ -165,4 +165,27 @@ hr {
 
 .right-about-heading p {
     text-align: right;
+}
+
+#welcome {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 280%;
+}
+
+#circle-container {
+    width: 300px;
+    height: 300px;
+    padding: 30px;
+    border-style: solid;
+    border-color: #ccc;
+    border-width: 1px;
+    border-radius: 50%;	
+    margin: 0 auto;
+}
+
+#circle-cover-bg {	
+    background: url('../images/ethos-center-image.jpg') no-repeat center center;	
+    height: 100%;	
+    border-radius: 50%;
 }

@@ -137,12 +137,6 @@ animation-fill-mode: forwards;
     margin: 0 auto;
 }
 
-#times > div {
-    width: 100%;
-    clear: both;
-    height: 150px;
-    padding: 0;
-}
 
 hr {
     border-top: 1px solid #3a3a3a;
@@ -286,6 +280,14 @@ footer {
         float: left;
         padding: 0;
     }
+
+    #times > div {
+        width: 100%;
+        clear: both;
+        height: 150px;
+        padding: 0;
+    }
+    
 
     hr {
         display: none;
